@@ -1,0 +1,31 @@
+.tavo-importer-settings .tavo-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 10px;
+}
+
+.tavo-importer-settings .tavo-checkbox-row label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.tavo-importer-settings select,
+.tavo-importer-settings input[type="file"] {
+    width: 100%;
+}
+
+.tavo-importer-settings .tavo-status {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 0.9em;
+    min-height: 1.2em;
+}
+
+.tavo-importer-settings .tavo-hint {
+    font-size: 0.8em;
+    opacity: 0.75;
+    margin-top: 4px;
+}
